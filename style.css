@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    padding:5% 13.5%;
+    padding: 5% 13.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,4 +78,41 @@ a:hover{
     background-color: #1bb1d3;
     color: var(--cor-secundaria);
     box-shadow: 0 0 11px 0 var(--cor-terciaria);
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1530px) {
+    main {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .links{
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    main{
+        padding: 0;
+        margin: 7% 35px;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .links{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
