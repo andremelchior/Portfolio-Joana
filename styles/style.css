@@ -8,7 +8,6 @@
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
-
 }
 
 * {
@@ -22,16 +21,33 @@ body {
     color: var(--cor-secundaria);
 }
 
+header{
+    padding: 2% 0 0 15%;
+}
+
+header nav{
+    display: flex;
+    gap: 80px;
+}
+
+header nav a{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 main {
-    padding: 5% 13.5%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    gap: 35px;
 }
 
 section {
-    width: 605px;
+    width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -55,29 +71,47 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    gap: 32px;
 }
 
-a{
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.links a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 260px;
-    height: 79px;
+    gap: 16px;
+    width: 378px;
+    padding: 21.5px 0;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    background-color: var(--cor-terciaria);
+    background-color: transparent;
+    border: solid var(--cor-terciaria) 2px;
     border-radius: 8px;
-    color: #000000;
     transition: all .3s;
 }
 
-a:hover{
-    background-color: #1bb1d3;
+.links a:hover{
+    background-color: var(--cor-hover);
     color: var(--cor-secundaria);
     box-shadow: 0 0 11px 0 var(--cor-terciaria);
+}
+
+footer{
+    padding: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1530px) {
