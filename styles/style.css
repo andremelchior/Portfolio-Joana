@@ -33,7 +33,7 @@ header nav{
 header nav a{
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
 }
@@ -67,7 +67,7 @@ strong {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -82,7 +82,7 @@ p {
 h2{
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .links a{
@@ -92,7 +92,7 @@ h2{
     gap: 16px;
     width: 50%;
     padding: 21.5px 0;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -113,6 +113,7 @@ footer{
     padding: 24px;
     text-align: center;
     font-weight: 400;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
